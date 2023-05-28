@@ -61,7 +61,7 @@ case $opcion in
 ;;
 4) clear
    echo -e "          ${Z}#___________${W}Aviso${Z}__________#\n"
-   echo -e "${W}Enviaras el correo tres veces seguidas para que se puedan restablecer tus codes\n"
+   echo -e "${W}Enviaras el correo tres veces seguidas para que se pueda restablecer los codes del numero\n"
    echo -e "${G}IMPORTANTE: ${W}Escribir el Numero sin espacios.\n"
    echo -ne "${Z}Introduce el Numero:${W} "
    read -r numero
