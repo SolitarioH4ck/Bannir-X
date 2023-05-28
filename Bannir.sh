@@ -61,7 +61,7 @@ case $opcion in
    echo -e "${G}IMPORTANTE: ${W}Escribir el Numero sin espacios.\n"
    echo -ne "${Z}Introduce el Numero:${W}"
    read -r numero
-   am start -a android.intent.action.SENDTO -d "mailto:support@support.com?&subject=Telefono Robado/Extraviado desactiven mi cuenta $numero" com.google.android.gm  > /dev/null  2>&1
+   am start -a android.intent.action.SENDTO -d "mailto:support@support.com?&subject=Desactiven mi cuenta&body=Telefono robado/extraviado desactiven mi numero $numero" com.google.android.gm  > /dev/null  2>&1
 ;;
 5) xdg-open "https://wa.me/+50487870488?text=Hola,%20¿cómo%20estás%20SolitarioH4ck"
    Bannir
