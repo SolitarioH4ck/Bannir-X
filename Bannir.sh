@@ -43,7 +43,7 @@ case $opcion in
 ;;
 2) clear
    echo -e "          ${Z}#___________${W}Aviso${Z}__________#\n"
-   echo -e "${W}Despues de enviar Este correo no enviaras otro Más solo Esperarás la respuesta de Support\n"
+   echo -e "${W}Despues de enviar Este correo no enviaras otro mas solo Esperarás la respuesta de Support\n"
    echo -e "${G}IMPORTANTE: ${W}Escribir el Numero sin espacios."
    echo ""
    echo -ne "${Z}Introduce el Numero:${W} "
