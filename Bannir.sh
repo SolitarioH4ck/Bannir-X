@@ -42,7 +42,7 @@ case $opcion in
    Bannir
 ;;
 2) clear
-   echo -e "             ${Z}#___________${W}Aviso${Z}__________#\n"
+   echo -e "          ${Z}#___________${W}Aviso${Z}__________#\n"
    echo -e "${W}Despues de enviar Este correo no enviaras otro Más solo Esperarás la respuesta de Support\n"
    echo -e "${G}IMPORTANTE: ${W}Escribir el Numero sin espacios."
    echo ""
@@ -56,7 +56,7 @@ case $opcion in
    am start -a android.intent.action.SENDTO -d "mailto:support@support.com?&subject=Activen mi cuenta&body=Hola buenas noches, vengo a reclamar un error de suspensión a mi cuenta Hace aproximadamente un par de horas, estaba tranquilamente hablando con amigos cuando me llega un mensaje diciendo que mi WhatsApp fue registado en otro telefono; posterior a eso cuando intento ingresar me dice que mi cuenta Ha sido suspendida, por favor me ayuden a recuperar mi cuenta Yo nunca me e metido en nada malo o asido un mal Amigo que me iso eso. mi numero es:($numero)" com.google.android.gm  > /dev/null  2>&1
  ;;
 4) clear
-   echo -e "             ${Z}#___________${W}Aviso${Z}__________#\n"
+   echo -e "          ${Z}#___________${W}Aviso${Z}__________#\n"
    echo -e "${W}Enviaras el correo tres veces seguidas para que pueda Inmunisarse\n"
    echo -e "${G}IMPORTANTE: ${W}Escribir el Numero sin espacios.\n"
    echo -ne "${Z}Introduce el Numero:${W} "
