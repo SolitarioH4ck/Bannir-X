@@ -1,4 +1,4 @@
-Bannir-X un script echo bash para desactivar y desbanear numero de whatsapp, no me resposabilizo por el mal uso indevido.
+Bannir-X un script echo en bash para desactivar y desbanear numero de whatsapp, no me resposabilizo por el mal uso indevido.
 
 comandos de instalación:
 
