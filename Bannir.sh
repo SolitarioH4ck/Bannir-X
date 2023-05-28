@@ -22,13 +22,15 @@ echo -e "
 ${Z}┌════════════════════════════┐
 ${Z}┃ [${G}1${Z}]${W} Abrir num en wa.me     ${Z}┃
 ${Z}┃ [${G}2${Z}]${W} Desactivar un numero   ${Z}┃
-${Z}┃ [${G}3${Z}]${W} Desbanear un numero    ${Z}┃                                                                                            ${Z}┃ [${G}4${Z}]${W} Sacar del -1 un numero ${Z}┃
+${Z}┃ [${G}3${Z}]${W} Desbanear un numero    ${Z}┃                                                                                            
+${Z}┃ [${G}4${Z}]${W} Sacar del -1 un numero ${Z}┃
 ${Z}┃ [${G}5${Z}]${W} Contactar creador      ${Z}┃
 ${Z}┃                            ┃
 ${Z}┃ [${G}00${Z}]${W} Salir                 ${Z}┃
 ${Z}└════════════════════════════┘
 "
-echo -ne "${G}>>${W} "                                                                                                                        read -r opcion
+echo -ne "${G}>>${W} "
+read -r opcion
 echo ' '
 
 if [ -z ${opcion} ];then
