@@ -51,8 +51,8 @@ case $opcion in
    read -r numero
    am start -a android.intent.action.SENDTO -d "mailto:support@support.com?&subject=Desactivar mi cuenta&body=Por favor, desactiven mi cuenta de WhatsApp de inmediato debido al robo de mi teléfono móvil Mi número de teléfono asociado con la cuenta robada es $numero He intentado solicitar la desactivacion de mi cuenta anteriormente, pero no he recibido respuesta. Hay información personal en mi cuenta que necesito proteger y me gustaría que mi cuenta sea desactivada lo antes posible." com.google.android.gm  > /dev/null 2>&1
    Bannir
-   
-3) echo -e -n "${Z}Numero:${W} "
+;;
+3) echo -e -n  "${Z} Número:${W} "
    read -r numero
    am start -a android.intent.action.SENDTO -d "mailto:support@support.com?&subject=Activen mi cuenta&body=Hola buenas noches, vengo a reclamar un error de suspensión a mi cuenta Hace aproximadamente un par de horas, estaba tranquilamente hablando con amigos cuando me llega un mensaje diciendo que mi WhatsApp fue registado en otro telefono; posterior a eso cuando intento ingresar me dice que mi cuenta Ha sido suspendida, por favor me ayuden a recuperar mi cuenta Yo nunca me e metido en nada malo o asido un mal Amigo que me iso eso. mi numero es:($numero)" com.google.android.gm  > /dev/null  2>&1 
    Bannir
