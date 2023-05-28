@@ -8,7 +8,8 @@ W='\033[1;39m'
 R='\033[1;91m'
 
 Bannir(){
-clear;echo -e ${Z}'
+clear;sleep 1
+echo -e ${Z}'
 ______                      _____
 ___  /_______ _________________(_)_______      ____  __
 __  __ \  __ `/_  __ \_  __ \_  /__  ___/________  |/_/
@@ -53,8 +54,9 @@ case $opcion in
    
 3) echo -e -n "${Z}Numero:${W} "
    read -r numero
-   am start -a android.intent.action.SENDTO -d "mailto:support@support.com?&subject=Activen mi cuenta&body=Hola buenas noches, vengo a reclamar un error de suspensión a mi cuenta Hace aproximadamente un par de horas, estaba tranquilamente hablando con amigos cuando me llega un mensaje diciendo que mi WhatsApp fue registado en otro telefono; posterior a eso cuando intento ingresar me dice que mi cuenta Ha sido suspendida, por favor me ayuden a recuperar mi cuenta Yo nunca me e metido en nada malo o asido un mal Amigo que me iso eso. mi numero es:($numero)" com.google.android.gm  > /dev/null  2>&1
- ;;
+   am start -a android.intent.action.SENDTO -d "mailto:support@support.com?&subject=Activen mi cuenta&body=Hola buenas noches, vengo a reclamar un error de suspensión a mi cuenta Hace aproximadamente un par de horas, estaba tranquilamente hablando con amigos cuando me llega un mensaje diciendo que mi WhatsApp fue registado en otro telefono; posterior a eso cuando intento ingresar me dice que mi cuenta Ha sido suspendida, por favor me ayuden a recuperar mi cuenta Yo nunca me e metido en nada malo o asido un mal Amigo que me iso eso. mi numero es:($numero)" com.google.android.gm  > /dev/null  2>&1 
+   Bannir
+;;
 4) clear
    echo -e "          ${Z}#___________${W}Aviso${Z}__________#\n"
    echo -e "${W}Enviaras el correo tres veces seguidas para que pueda Inmunisarse\n"
@@ -62,6 +64,7 @@ case $opcion in
    echo -ne "${Z}Introduce el Numero:${W} "
    read -r numero
    am start -a android.intent.action.SENDTO -d "mailto:support@support.com?&subject=Desactiven mi cuenta&body=Telefono robado/extraviado desactiven mi numero $numero" com.google.android.gm  > /dev/null  2>&1
+   Bannir
 ;;
 5) xdg-open "https://wa.me/+50487870488?text=Hola,%20¿cómo%20estás%20SolitarioH4ck"
    Bannir
