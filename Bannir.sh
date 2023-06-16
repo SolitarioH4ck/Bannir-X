@@ -31,7 +31,7 @@ ${Z}└════════════════════════�
 "
 echo -ne "${G}>>${W} "
 read -r opcion
-echo ' '
+echo ""
 
 if [ -z ${opcion} ];then
 echo "No Haz Elegido ninguna opción."
